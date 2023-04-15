@@ -5,7 +5,7 @@
     <table style="width:1430px">
         <tr>
             <td colspan="2" style="text-align:center">
-                <asp:Label ID="lbTitulo" runat="server" style="font-size:x-large; position:center; font-family: Calibri" /> 
+                <asp:Label ID="lbTitulo" runat="server" style="font-size:x-large; position:center; font-family: Calibri; font-weight: bold" /> 
             </td>
              
         </tr>
@@ -24,7 +24,7 @@
         <tr>
             <td tyle="width:2000px;" style="text-align:center">
                  &nbsp;&nbsp;<asp:Label ID="lbSenha" runat="server" style="font-size:x-large; font-family: Calibri"/> 
-                &nbsp; <asp:TextBox ID="txSenha" runat="server" style="width:200px" TextMode="Password"/>
+                 <asp:TextBox ID="txSenha" runat="server" style="width:200px" TextMode="Password" />
             </td>
         </tr>
 
