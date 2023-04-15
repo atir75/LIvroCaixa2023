@@ -2,10 +2,10 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
  
-    <table style="width:600px">
+    <table style="width:1430px">
         <tr>
-            <td colspan="2" style="text-align:center;">
-                <asp:Label ID="lbTitulo" runat="server" style="font-size:x-large"/> 
+            <td colspan="2" style="text-align:center">
+                <asp:Label ID="lbTitulo" runat="server" style="font-size:x-large; position:center; font-family: Calibri" /> 
             </td>
              
         </tr>
@@ -18,16 +18,12 @@
         <tr>
             <td tyle="width:200px;">
                 &nbsp;&nbsp;<asp:Label ID="lbLogin" runat="server" style="font-size:x-large"/> 
-            </td>
-            <td>
-                &nbsp; <asp:TextBox ID="txLogin" runat="server" style="width:200px" />
+                 &nbsp; <asp:TextBox ID="txLogin" runat="server" style="width:200px" />
             </td>
         </tr>
         <tr>
-            <td>
+            <td tyle="width:200px;">
                  &nbsp;&nbsp;<asp:Label ID="lbSenha" runat="server" style="font-size:x-large"/> 
-            </td>
-            <td>
                 &nbsp; <asp:TextBox ID="txSenha" runat="server" style="width:200px" TextMode="Password"/>
             </td>
         </tr>
