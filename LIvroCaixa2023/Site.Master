@@ -63,9 +63,9 @@
                                 </tr>           
                                 <tr>
                                     <td style="text-align: center">
-                                        <asp:Button ID="btCadastro" runat="server" Text="Cadastro de Usuários" Width="160px" BackColor="#666666" ForeColor="White" OnClick="btCadastro_Click" Visible="false"/>
-                                        <asp:Button ID="btFluxoDeCaixa" runat="server" Text="Fluxo de Caixa" Width="160px" BackColor="#666666" ForeColor="White" OnClick=btFluxoDeCaixa_Click Visible="false"/>
-                                        <asp:Button ID="btSair" runat="server" Text="Sair" Width="160px" BackColor="#666666" ForeColor="White" OnClick="btSair_Click" Visible="false"/>
+                                        <asp:Button ID="btCadastro" runat="server" Text="Cadastro de Usuários" Width="180px" BackColor="gray" ForeColor="White" OnClick="btCadastro_Click" Visible="false" style="border-radius: 20px"/>
+                                        <asp:Button ID="btFluxoDeCaixa" runat="server" Text="Fluxo de Caixa" Width="180px" BackColor="gray" ForeColor="White" OnClick=btFluxoDeCaixa_Click Visible="false" style="border-radius: 20px"/>
+                                        <asp:Button ID="btSair" runat="server" Text="Sair" Width="180px" BackColor="gray" ForeColor="White" OnClick="btSair_Click" Visible="false" style="border-radius: 20px"/>
                                     </td>
                                 </tr>                             
                                 </table>
