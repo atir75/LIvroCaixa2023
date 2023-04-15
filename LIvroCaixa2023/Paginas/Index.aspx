@@ -16,7 +16,7 @@
         </tr>
 
         <tr>
-            <td tyle="width:2000px;" style="text-align:center">
+            <td style="width:2000px; text-align:center">
                 &nbsp;&nbsp;<asp:Label ID="lbLogin" runat="server" style="font-size:x-large; font-family: Calibri"/> 
                  &nbsp; <asp:TextBox ID="txLogin" runat="server" style="width:200px" />
             </td>
